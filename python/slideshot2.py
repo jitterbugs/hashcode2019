@@ -31,8 +31,8 @@ def get_ordered_slides(photosH, photosV):
         print(photosV[i].id, photosV[i+1].id)
 
 class Photo:
-    def __init__(self, id, orientation, tags):
-        self.id = id
+    def __init__(self, _id, orientation, tags):
+        self.id = _id
         self.orientation = orientation
         self.tags = tags
 
